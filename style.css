@@ -7,6 +7,9 @@
    padding: 30px;
    margin: 40px;
 }
+.btn-light{
+    text-align: center;
+}
 .btn-container{
     text-align: center;
     margin-top: 30px;
@@ -79,7 +82,7 @@ h2{
     background-color: rgb(159, 255, 159);
 }
 
-@media screen and (max-width:500px){
+@media screen and (max-width:650px){
     .main-container{
         top: 5%;
         left: 7%;
@@ -96,7 +99,7 @@ h2{
         margin: 2px;
      }
 }
-@media screen and (max-width:300px){
+@media screen and (max-width:370px){
     .main-container{
         top: 5%;
         left: 5%;
@@ -109,7 +112,7 @@ h2{
      .red,
      .yellow,
      .green{
-        padding: 20px;
-        margin: 5px;
+        padding: 19px;
+        margin: 4px;
      }
 }

@@ -2,6 +2,7 @@ let results = document.querySelector(".result");
 let lightRed  = document.querySelector(".red");
 let lightYellow  = document.querySelector(".yellow");
 let lightGreen  = document.querySelector(".green");
+let btncontainer = document.querySelector(".btn-container");
 
 function red(){
     lightRed.style.backgroundColor = "rgb(124, 2, 2)";
@@ -56,8 +57,9 @@ function Clock(){
      }
 }
 function startClock(){
+    btncontainer.style.display = "none";
     if(time !==null){
         clearInterval(time)
     }
-    time = setInterval(Clock,1000)
+    time = setInterval(Clock,1000);
 }
