@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traffic Light</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="main-container"> 
+        <h2>Traffic Light Controls</h2>
+        <h4 class="result"> </h4>
+        <p class="timer"></p>
+        <div>
+           <button class="red"></button>
+           <button class="yellow"></button>
+           <button class="green"></button>
+        </div>
+        <div class="btn-container">
+           <button class="red-btn" onclick="red()">Red</button>
+           <button class="yellow-btn" onclick="yellow()">Yellow</button>
+           <button class="green-btn" onclick="Green()">Green</button>
+        </div>
+        <div class="auto-start-btn">
+           <button class="auto-start" onclick="startClock()">Auto Start</button>
+        </div>
+    </div>
+    <script src="demo.js"></script>
+</body>
+</html>
